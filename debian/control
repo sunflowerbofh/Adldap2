@@ -1,0 +1,39 @@
+Source: adldap2
+Section: php
+Priority: optional
+Maintainer: Katharina Drexel <katharina.drexel@bfh.ch>
+Build-Depends:
+ debhelper-compat (= 13),
+ phpab,
+ pkg-php-tools,
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Homepage: https://adldap2.github.io/Adldap2/
+Vcs-Browser: https://github.com/sunflowerbofh/Adldap2
+Vcs-Git: https://github.com/sunflowerbofh/Adldap2.git
+
+Package: php-adldap2
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${phpcomposer:Debian-require},
+Suggests:
+ ${phpcomposer:Debian-suggest},
+Replaces:
+ ${phpcomposer:Debian-replace},
+Breaks:
+ ${phpcomposer:Debian-conflict},
+Provides:
+ ${phpcomposer:Debian-provide},
+Description: PHP LDAP Package for humans
+ Adldap2 is a PHP package that provides LDAP authentication and directory
+ management tools using the Active Record pattern.
+ .
+  * Up and running in minutes. Effortlessly connect to your LDAP servers and
+    start running queries & operations in a matter of minutes.
+  * Fluent query builder. Building LDAP queries has never been so easy.
+    Find the records you're looking for in a couple lines or less with a fluent
+    interface.
+  * Supercharged Active Record. Create and modify LDAP records with ease. All
+    LDAP records are individual models. Simply modify the attributes on the
+    model and save it to persist the changes to your LDAP server.

@@ -1,0 +1,19 @@
+From: Katharina Drexel <katharina.drexel@bfh.ch>
+Date: Thu, 10 Feb 2022 13:51:42 +0100
+Subject: replace tightenco/collect by laravel/framework (collect already integrated)
+
+Origin: https://github.com/sunflowerbofh/Adldap2/commit/bcb91562de3e65291cff6c09dd3bf7cc2d7eba90
+Applied-Upstream: 4.6.0
+
+diff -Naurp a/composer.json b/composer.json
+--- a/composer.json
++++ b/composer.json
+@@ -31,7 +31,7 @@
+         "ext-json": "*",
+         "psr/log": "~1.0|~2.0|~3.0",
+         "psr/simple-cache": "~1.0|~2.0",
+-        "tightenco/collect": "~5.0|~6.0|~7.0|~8.0",
++        "laravel/framework": "6.20.14|~6.20.42|~8.0|~9.0",
+         "illuminate/contracts": "~5.0|~6.0|~7.0|~8.0|~9.0"
+     },
+     "require-dev": {

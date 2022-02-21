@@ -1,0 +1,5 @@
+adldap2 (10.4.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1004661).
+
+ -- Katharina Drexel <katharina.drexel@bfh.ch>  Thu, 27 Jan 2022 13:01:01 +0100
