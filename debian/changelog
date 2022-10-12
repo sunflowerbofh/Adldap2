@@ -1,3 +1,9 @@
+adldap2 (10.4.1-3) UNRELEASED; urgency=medium
+
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 12 Oct 2022 14:03:26 -0000
+
 adldap2 (10.4.1-2) unstable; urgency=medium
 
   * Increasing version number (Upload to testing).
