@@ -7,7 +7,7 @@ Build-Depends:
  phpab,
  pkg-php-tools,
 Rules-Requires-Root: no
-Standards-Version: 4.6.1
+Standards-Version: 4.6.2
 Homepage: https://adldap2.github.io/Adldap2/
 Vcs-Browser: https://github.com/sunflowerbofh/Adldap2
 Vcs-Git: https://github.com/sunflowerbofh/Adldap2.git
